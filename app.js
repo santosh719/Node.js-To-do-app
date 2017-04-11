@@ -6,7 +6,7 @@ var todoController = require('./controllers/todoController');
 var app = express();
 
 //setting up template engine
-app.set('view engine','ejs');
+app.set('view engine', 'ejs');
 
 //initiliaze static files
 app.use(express.static('./public'));
